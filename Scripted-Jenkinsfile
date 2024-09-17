@@ -2,7 +2,7 @@ node {
     def mvnPath
     
     stage('git clone') {
-        git 'https://github.com/kanchangajre/dev_project/tree/master.git'
+        git 'https://github.com/kanchangajre/dev_project'
     }
     
     stage('Maven build'){
