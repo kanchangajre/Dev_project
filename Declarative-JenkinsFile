@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-               git 'https://github.com/kanchangajre/dev_project/tree/master.git'
+               git 'https://github.com/kanchangajre/dev_project'
             }
         }
          stage('Build') {
